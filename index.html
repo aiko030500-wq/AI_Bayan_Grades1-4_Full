@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Bayan 2025</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Вход -->
+  <div id="login-screen" class="screen active">
+    <h1>Welcome to AI Bayan – English for Grades 1–4</h1>
+    <input type="text" id="nameInput" placeholder="Enter your name" />
+    <input type="password" id="pinInput" placeholder="Enter access code" />
+    <button id="loginBtn">Login</button>
+  </div>
+
+  <!-- Главное меню -->
+  <div id="menu-screen" class="screen">
+    <h2>Main Menu</h2>
+    <div class="menu-buttons">
+      <button class="menu-btn" data-target="grammar-screen">📘 Grammar</button>
+      <button class="menu-btn" data-target="vocabulary-screen">🧠 Vocabulary</button>
+      <button class="menu-btn" data-target="phonics-screen">🔤 Phonics</button>
+      <button class="menu-btn" data-target="cross-screen">🌍 Cross-Curricular</button>
+      <button class="menu-btn" data-target="listening-screen">🎧 Listening</button>
+      <button class="menu-btn" data-target="reading-screen">📖 Reading</button>
+      <button class="menu-btn" data-target="dictation-screen">✏️ Dictation</button>
+      <button class="menu-btn" data-target="speaking-screen">🗣️ Speaking</button>
+      <button class="menu-btn" data-target="journal-screen">📓 Journal</button>
+      <button class="menu-btn" data-target="chat-screen">🤖 Chat with AI Bayan</button>
+    </div>
+  </div>
+
+  <!-- Пример разделов -->
+  <div id="grammar-screen" class="screen">
+    <h2>Grammar – Irregular Verbs</h2>
+    <p>go – went – gone<br>come – came – come<br>see – saw – seen<br>make – made – made</p>
+    <button class="back-btn">Back to Menu</button>
+  </div>
+
+  <div id="listening-screen" class="screen">
+    <h2>Listening</h2>
+    <p>🎧 Listen and repeat short dialogues.</p>
+    <button class="back-btn">Back to Menu</button>
+  </div>
+
+  <div id="chat-screen" class="screen">
+    <h2>Chat with AI Bayan</h2>
+    <p>Ask Bayan questions in English!</p>
+    <button class="back-btn">Back to Menu</button>
+  </div>
+
+  <div id="journal-screen" class="screen">
+    <h2>Journal</h2>
+    <table>
+      <tr><th>Name</th><th>Date</th><th>Lesson</th><th>Score</th></tr>
+    </table>
+    <button class="back-btn">Back to Menu</button>
+  </div>
+
+  <footer>AI Bayan 2025</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
